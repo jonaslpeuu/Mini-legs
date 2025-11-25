@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "mini_legs",
+  "version": "${version}",
+  "name": "mini legs",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mini_legs/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "de.whitoutcookies.mini_legs.client.Mini_legsDataGenerator"
+    ],
+    "client": [
+      "de.whitoutcookies.mini_legs.client.Mini_legsClient"
+    ],
+    "main": [
+      "de.whitoutcookies.mini_legs.Mini_legs"
+    ]
+  },
+  "mixins": [
+    "mini_legs.mixins.json",
+    {
+      "config": "mini_legs.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
