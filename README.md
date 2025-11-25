@@ -2,7 +2,7 @@
 
 A Minecraft Fabric mod that visually makes the player's legs smaller and adjusts the camera height.
 
-[![Download on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/logo@1.1.4/svg/modrinth_badge.svg)](https://modrinth.com/mod/mini-legs)
+[![Available on Modrinth](https://img.shields.io/badge/Available%20on-Modrinth-30B27B?logo=modrinth&logoColor=30B27B&labelColor=1c1c1c)](https://modrinth.com/mod/mini-legs)
 
 ## Documentation & Wiki
 
